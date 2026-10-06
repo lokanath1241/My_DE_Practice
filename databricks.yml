@@ -1,0 +1,19 @@
+# This is a Declarative Automation Bundle definition for My_DE_Practice.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: My_DE_Practice
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-e90d8c02-b507.cloud.databricks.com
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://dbc-e90d8c02-b507.cloud.databricks.com
